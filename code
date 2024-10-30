@@ -8,7 +8,11 @@ english_to_bengali_map = {
     '6': '৬',
     '7': '৭',
     '8': '৮',
-    '9': '৯'
+    '9': '৯',
+    '.': '.'
+
+    
+
 }
 
 # Step 2: Create a function to convert an entire number
@@ -24,7 +28,8 @@ def convert_to_bengali(number):
 # Example usage
 while 1:
     print("Enter the number")
-    input_number = int(input())  # You can test with any number
+    input_number = float(input())  # You can test with any number
     output = convert_to_bengali(input_number)
     print(f"The Bengali translation of {input_number} is {output}")
+
 
